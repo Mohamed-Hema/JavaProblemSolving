@@ -13,6 +13,7 @@ public class MiddleOfTheLinekdList {
      */
     public class ListNode(){
 
+        public ListNode next;
     }
     class Solution {
         public ListNode middleNode(ListNode head) {
