@@ -11,10 +11,7 @@ public class MiddleOfTheLinekdList {
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-    public class ListNode(){
-
-        public ListNode next;
-    }
+  
     class Solution {
         public ListNode middleNode(ListNode head) {
             ListNode a_pointer = head;
@@ -25,6 +22,10 @@ public class MiddleOfTheLinekdList {
                 b_pointer = b_pointer.next.next;
             }
             return a_pointer;
+        }
+
+        private class ListNode {
+            public ListNode next;
         }
     }
 }
